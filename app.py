@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, render_template
-from api.call_api import call_global, call_konochan, call_danbooru, call_yandere
+from api.call_api import call_global, call_konochan, call_yandere
 
 app = Flask(__name__)
 
@@ -25,9 +25,3 @@ def get_yandere():
 def get_konochan():
     konochan_post = call_konochan()
     return jsonify(konochan_post)
-
-
-@app.route('/api/danbooru', methods=["GET"])
-def get_danbooru():
-    danbooru_post = call_danbooru()
-    return jsonify(danbooru_post)
