@@ -8,7 +8,7 @@ def call_global():
     yandere_receive = call_yandere_api().get("fields")
     konachan_receive = call_konochan_api().get("fields")
     waifu_posts = yandere_receive + konachan_receive
-    print(waifu_posts)
+
     return {
         "title": title,
         "fields": waifu_posts
