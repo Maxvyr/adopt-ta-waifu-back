@@ -25,6 +25,3 @@ htmlcov/
 .coverage.*
 *,cover
 
-#Heroko
-Procfile
-requirements.txt
