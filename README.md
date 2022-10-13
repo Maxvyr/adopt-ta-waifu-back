@@ -25,9 +25,9 @@ Using Flask for web framework
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A72UVP8)
 
-## Crypto Tips(ETH)
+## Crypto Tips
 
-![https://i.imgur.com/XpF2vgw.png](https://i.imgur.com/XpF2vgw.png)
+![https://raw.githubusercontent.com/Maxvyr/Maxvyr/main/img/tips/github-tips-crypto.png](https://raw.githubusercontent.com/Maxvyr/Maxvyr/main/img/tips/github-tips-crypto.png)
 
 ## Contact Me
 
