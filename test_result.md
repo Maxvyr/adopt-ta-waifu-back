@@ -107,39 +107,48 @@ user_problem_statement: "Create an idea logger app in notion style that lets use
 backend:
   - task: "Ideas CRUD API endpoints"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/backend/server.py"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Implemented comprehensive CRUD operations for ideas including create, read, update, delete, archive/unarchive functionality"
+      - working: true
+        agent: "testing"
+        comment: "All CRUD operations tested successfully. Created test ideas with different categories and tags, verified GET, PUT, DELETE operations. Archive/unarchive functionality works correctly. Error handling for non-existent IDs returns appropriate 404 responses."
 
   - task: "Search and filtering API"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/backend/server.py"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Implemented search by title/content, filtering by status, category, and tags"
+      - working: true
+        agent: "testing"
+        comment: "Search and filtering functionality works as expected. Successfully tested search by title/content, filtering by status (active/archived), category, and tags. Combined filters also work correctly. Empty searches and searches with no results handled properly."
 
   - task: "Categories and tags management API"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/backend/server.py"
     stuck_count: 0
     priority: "medium"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Added endpoints to get unique categories and tags from existing ideas"
+      - working: true
+        agent: "testing"
+        comment: "Categories and tags endpoints work correctly. Successfully retrieved unique categories and tags from existing ideas. API returns proper JSON format with categories and tags arrays."
 
 frontend:
   - task: "Notion-style UI implementation"
